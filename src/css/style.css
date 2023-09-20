@@ -50,3 +50,34 @@ body{
     text-transform: uppercase;
     width: 700px;
 }
+
+.interactive{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 150px 200px;
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+}
+
+.interactive .info{
+    background-color: hsl(0, 0%, 100%);
+    width: 575px;
+    padding: 100px 0px 0px 100px;
+    margin: 0 20% 0 0;
+}
+
+.interactive .info h2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.interactive .info p{
+    line-height: 26px;
+    color: hsl(0, 0%, 55%);
+}
