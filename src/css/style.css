@@ -81,3 +81,54 @@ body{
     line-height: 26px;
     color: hsl(0, 0%, 55%);
 }
+
+.our-creations{
+    padding: 0px 300px 100px;
+}
+
+
+.our-creations .creations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 40px;
+}
+
+.our-creations .creations .title{
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.our-creations .creations a{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 2px solid hsl(0, 0%, 41%);
+    padding: 10px 35px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.cards .card img{
+    filter: brightness(75%);
+}
+
+.cards .card{
+    position: relative;
+}
+
+.cards .card .card-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: hsl(0, 0%, 100%);
+    width: 180px;
+}
